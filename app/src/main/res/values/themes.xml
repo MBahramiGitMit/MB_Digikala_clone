@@ -3,7 +3,7 @@
 
     <style name="Theme.MB_Digikala_clone" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:statusBarColor">@color/red</item>
-        <item name="android:windowBackground">@color/red</item>
+        <item name="android:windowBackground">@drawable/default_bg</item>
         <item name="android:navigationBarColor">@color/red</item>
     </style>
 </resources>

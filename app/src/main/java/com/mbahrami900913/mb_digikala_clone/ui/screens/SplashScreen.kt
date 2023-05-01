@@ -2,7 +2,11 @@ package com.mbahrami900913.mb_digikala_clone.ui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -11,7 +15,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.google.accompanist.systemuicontroller.rememberSystemUiController
 import com.mbahrami900913.mb_digikala_clone.R
 import com.mbahrami900913.mb_digikala_clone.navigation.Screen
 import com.mbahrami900913.mb_digikala_clone.ui.components.Loading3Dots
@@ -61,5 +64,4 @@ fun Splash() {
             Loading3Dots(isDark = false)
         }
     }
-
 }

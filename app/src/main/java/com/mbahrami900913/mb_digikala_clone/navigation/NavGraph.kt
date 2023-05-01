@@ -5,6 +5,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.mbahrami900913.mb_digikala_clone.ui.screens.*
+import com.mbahrami900913.mb_digikala_clone.ui.screens.home.HomeScreen
 
 @Composable
 fun SetupNavGraph(navController: NavHostController) {
